@@ -1,0 +1,47 @@
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+
+.dashboard-right-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.action-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrapper-header-content {
+  width: 70%;
+  margin: 0 auto;
+}
+.centered-text {
+  text-align: center;
+}
+.content-bottom{
+  margin: 0 auto;
+  width: 450px;
+  font-weight: 500;
+  font-size: 24px;
+}
